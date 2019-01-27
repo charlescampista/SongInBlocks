@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('mainpage');
 });
+
+
+Route::resource('repertory','RepertoryController');
+Route::resource('song','SongController');
+Route::resource('block','BlockController');
+Route::resource('musicalnote','MusicalNoteController');
