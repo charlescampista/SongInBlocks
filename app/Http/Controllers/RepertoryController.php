@@ -14,7 +14,7 @@ class RepertoryController extends Controller
      */
     public function index()
     {
-        //
+        return view('repertory/repertories');
     }
 
     /**
@@ -24,7 +24,7 @@ class RepertoryController extends Controller
      */
     public function create()
     {
-        //
+        return view('repertory/createrepertory');
     }
 
     /**
